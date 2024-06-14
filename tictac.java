@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class tictac {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String input
+        String input;
         do {
                 playTicTac();
             System.out.println("Play tictac ? y or n");
@@ -48,6 +48,7 @@ public class tictac {
                 }
             } else {
                 System.out.println("Invalid move. Try again!");
+                count--;
             }
             count++;
         }
