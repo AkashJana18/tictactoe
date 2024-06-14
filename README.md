@@ -23,7 +23,7 @@ This project is a simple console-based implementation of the classic Tic-Tac-Toe
    - If all nine cells are filled and no player has three in a row, the game is declared a draw.
    - A draw message is displayed, and the option to play again is provided.
 
-## Example Game
+### Example Game
 
 \```
   |   |   
